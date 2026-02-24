@@ -23,16 +23,7 @@
 
         /* Navbar */
         .navbar { background: white !important; border-bottom: 3px solid var(--primary-blue); padding: 0.5rem 0; }
-        .navbar-brand {
-            font-size: 28px; /* Desktop size */
-            font-weight: 700;
-            text-decoration: none;
-        }
-        @media (max-width: 768px) {
-            .navbar-brand {
-                font-size: 22px; /* Mobile size */
-            }
-        }
+        .navbar-brand { font-size: 24px; color: var(--primary-blue) !important; font-weight: 700; text-decoration: none; }
 
         /* Carousel */
         .carousel-item { height: 90vh; position: relative; }
@@ -99,10 +90,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
         <div class="container">
-            <!-- Text-only Brand with Gold 2026 -->
-            <a class="navbar-brand" href="index.html">
-                <span style="color: var(--primary-blue);">Lakebelt</span> <span style="color: var(--shining-gold);">2026</span>
-            </a>
+            <!-- Text-only Brand -->
+            <a class="navbar-brand" href="index.html">Lakebelt 2026</a>
 
             <!-- Toggler for mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
