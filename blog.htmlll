@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The Document | Lakebelt Expo 2026</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        :root { 
+            --primary-blue: #003366; 
+            --shining-gold: #FFD700; 
+            --whatsapp-green: #25D366;
+        }
+        
+        body { font-family: 'Poppins', sans-serif; background: #fdfdfd; }
+        h1, h2, .navbar-brand { font-family: 'Playfair Display', serif; }
+
+        /* Navbar (Matches Index) */
+        .navbar { background: white !important; border-bottom: 3px solid var(--primary-blue); padding: 1rem 0; }
+        .navbar-brand { font-size: 32px; color: var(--primary-blue) !important; font-weight: 700; }
+
+        /* Blog Header Section */
+        .blog-header {
+            background: linear-gradient(rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url('https://images.unsplash.com/photo-1434031216660-c54505136705?q=80&w=2070');
+            background-size: cover; background-position: center;
+            padding: 100px 0; color: white; text-align: center;
+        }
+
+        /* Document Styling */
+        .document-card {
+            background: white; padding: 50px; border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05); margin-top: -60px;
+            border-top: 5px solid var(--shining-gold);
+        }
+        .doc-sidebar {
+            background: var(--primary-blue); color: white;
+            padding: 30px; border-radius: 20px; position: sticky; top: 120px;
+        }
+
+        /* WhatsApp */
+        .whatsapp-float {
+            position: fixed; width: 60px; height: 60px; bottom: 40px; right: 40px;
+            background-color: var(--whatsapp-green); color: #FFF; border-radius: 50px;
+            text-align: center; font-size: 30px; z-index: 1000; display: flex;
+            align-items: center; justify-content: center; text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://wa.me/254700000000" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Lakebelt <span style="color: var(--shining-gold)">2026</span></a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Back to Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="blog-header">
+        <div class="container">
+            <h1 class="display-3">Official Documentation</h1>
+            <p class="lead">Western Kenya Socio-Economic Blueprint</p>
+        </div>
+    </header>
+
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="document-card">
+                    <h2 class="text-primary mb-4">The Lakebelt Concept</h2>
+                    <p>The Lakebelt Expo is a strategic initiative aimed at unlocking the economic potential of the Lake Victoria Basin. This section documents the primary goals and the socio-economic impact expected in 2026.</p>
+                    
+                    <h4 class="mt-5">1. Regional Integration</h4>
+                    <p>Connecting 14 counties into a single economic circuit to facilitate trade and tourism. We are documenting the traditional routes and modern tech hubs that form this belt.</p>
+
+                    <h4 class="mt-5">2. Blue Economy Pillars</h4>
+                    <p>Our document outlines the sustainable use of lake resources, focusing on aquaculture, transport, and eco-tourism. This is the heart of the Western Kenya "Shining" future.</p>
+                    
+                    <img src="https://images.unsplash.com/photo-1544468266-6a8948003cd7?q=80&w=2000" class="img-fluid rounded-4 my-4" alt="Documentation Image">
+                    
+                    <p><i>More content from your belt document can be pasted here...</i></p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="doc-sidebar mt-4 mt-lg-0">
+                    <h5>Quick Downloads</h5>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="far fa-file-pdf me-2"></i> Expo Concept Note</li>
+                        <li class="mb-3"><i class="far fa-file-word me-2"></i> Registration Guide</li>
+                        <li class="mb-3"><i class="far fa-file-pdf me-2"></i> Sponsorship Deck</li>
+                    </ul>
+                    <a href="#" class="btn btn-light w-100 mt-3 fw-bold">Contact Secretariat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Lakebelt <span style="color: var(--shining-gold)">2026</span></h3>
+                    <p class="text-white-50">Celebrating Heritage, Empowering Innovation.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">© 2026 Lakebelt Western Kenya Expo.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

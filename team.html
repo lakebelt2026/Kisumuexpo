@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Our Team | Lakebelt Expo 2026</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        :root { 
+            --primary-blue: #003366; 
+            --shining-gold: #FFD700; 
+            --dark-navy: #001a33;
+        }
+        
+        body { font-family: 'Poppins', sans-serif; background-color: #f4f7f9; }
+        h1, h2, .navbar-brand { font-family: 'Playfair Display', serif; }
+
+        /* Navbar */
+        .navbar { background: white !important; border-bottom: 3px solid var(--primary-blue); padding: 1rem 0; }
+        .navbar-brand { font-size: 30px; color: var(--primary-blue) !important; font-weight: 700; }
+
+        /* Team Header */
+        .team-header {
+            background: linear-gradient(135deg, #001a33 0%, #003366 100%);
+            padding: 80px 0; color: white; text-align: center;
+            border-bottom: 5px solid var(--shining-gold);
+        }
+
+        /* Team Cards */
+        .team-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px 20px;
+            text-align: center;
+            transition: 0.5s;
+            border: 1px solid #eee;
+            margin-bottom: 30px;
+        }
+
+        .team-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0, 51, 102, 0.15);
+            border-color: var(--shining-gold);
+        }
+
+        .team-img-wrapper {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 25px;
+            position: relative;
+        }
+
+        .team-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid var(--soft-bg);
+            transition: 0.5s;
+        }
+
+        .team-card:hover .team-img-wrapper img {
+            border-color: var(--shining-gold);
+        }
+
+        .social-links a {
+            color: var(--primary-blue);
+            margin: 0 10px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--shining-gold);
+        }
+
+        .designation {
+            color: var(--shining-gold);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Lakebelt <span style="color: var(--shining-gold)">2026</span></a>
+            <div class="ms-auto">
+                <a href="index.html" class="btn btn-outline-primary rounded-pill px-4 me-2">Home</a>
+                <a href="gallery.html" class="btn btn-outline-primary rounded-pill px-4">Gallery</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="team-header">
+        <div class="container">
+            <h1 class="display-4 fw-bold">The Secretariat</h1>
+            <p class="lead text-white-50">The Visionaries behind the Lakebelt Expo 2026</p>
+        </div>
+    </header>
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="team-card">
+                    <div class="team-img-wrapper">
+                        <img src="Director.jpg" alt="Director">
+                    </div>
+                    <p class="designation">Executive Director</p>
+                    <h3 class="mb-3">Dr. Samuel Omondi</h3>
+                    <p class="text-muted small mb-4">Leading the strategic vision for the 14-county Lake Region Economic Block.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="team-card">
+                    <div class="team-img-wrapper">
+                        <img src="wanjiku.jpg" alt="Culture">
+                    </div>
+                    <p class="designation">Heritage Lead</p>
+                    <h3 class="mb-3">Sarah Wanjiku</h3>
+                    <p class="text-muted small mb-4">Curating the cultural exhibition and traditional heritage showcases.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="team-card">
+                    <div class="team-img-wrapper">
+                        <img src="dim.jpg" alt="Tech">
+                    </div>
+                    <p class="designation">Innovation Officer</p>
+                    <h3 class="mb-3">Kevin Otieno</h3>
+                    <p class="text-muted small mb-4">Managing the tech hub and startup competitions for the youth.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h3>Lakebelt <span style="color: var(--shining-gold)">2026</span></h3>
+            <p class="text-white-50">Organized by the LREB Secretariat. Documented for Unity.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

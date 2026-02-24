@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lakebelt Expo 2026 | Shining Blue Portal</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        :root { 
+            --primary-blue: #003366; 
+            --shining-gold: #FFD700; 
+            --whatsapp-green: #25D366;
+            --dark-navy: #001a33;
+        }
+        
+        body { font-family: 'Poppins', sans-serif; overflow-x: hidden; }
+        h1, h2, h3, .navbar-brand { font-family: 'Playfair Display', serif; }
+
+        /* Elegant Navbar */
+        .navbar { background: white !important; border-bottom: 3px solid var(--primary-blue); padding: 1rem 0; }
+        .navbar-brand { font-size: 32px; color: var(--primary-blue) !important; font-weight: 700; }
+
+        /* Full Height 3-Slide Carousel */
+        .carousel-item { height: 95vh; position: relative; }
+        .carousel-item img { object-fit: cover; height: 100%; width: 100%; filter: brightness(0.6); }
+        .carousel-caption { 
+            bottom: 0; left: 0; right: 0; top: 0; 
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            background: rgba(0, 32, 96, 0.4); 
+        }
+
+        /* Floating WhatsApp Button */
+        .whatsapp-float {
+            position: fixed; width: 60px; height: 60px; bottom: 40px; right: 40px;
+            background-color: var(--whatsapp-green); color: #FFF; border-radius: 50px;
+            text-align: center; font-size: 30px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+            z-index: 1000; display: flex; align-items: center; justify-content: center;
+            text-decoration: none; transition: 0.3s;
+        }
+        .whatsapp-float:hover { transform: scale(1.1); color: white; }
+
+        /* Shining Buttons */
+        .btn-shining {
+            background: linear-gradient(45deg, var(--primary-blue), #0052a4);
+            color: white; border: none; padding: 15px 35px; border-radius: 50px;
+            font-weight: 600; text-transform: uppercase; letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(0,51,102,0.3);
+        }
+
+        /* Pillars / Cards */
+        .pillar-card {
+            border: none; border-radius: 20px; transition: 0.5s; background: #fff;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        .pillar-card:hover { transform: translateY(-15px); border-bottom: 5px solid var(--shining-gold); }
+
+        /* Circular Profiles */
+        .testimonial-img {
+            width: 100px; height: 100px; border-radius: 50%;
+            border: 4px solid var(--primary-blue); margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://wa.me/254700000000" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lakebelt <span style="color: var(--shining-gold)">2026</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+          
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="blog.html" class="nav-item nav-link">The Document</a>
+                <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                    <div class="dropdown-menu shadow-sm m-0">
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="contact.html" class="dropdown-item">Official Inquiry</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+           
+ <div class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+        <i class="fa fa-ellipsis-v"></i>
+    </a>
+    <ul class="dropdown-menu shadow border-0 mt-2">
+        <li><a class="dropdown-item py-2" href="blog.html"><i class="fa fa-file-alt me-2 text-primary"></i> The Document</a></li>
+        <li><a class="dropdown-item py-2" href="gallery.html"><i class="fa fa-images me-2 text-primary"></i> Heritage Gallery</a></li>
+        <li><a class="dropdown-item py-2" href="team.html"><i class="fa fa-users me-2 text-primary"></i> Our Team</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item py-2" href="index.html#footer"><i class="fa fa-phone me-2 text-primary"></i> Contact Us</a></li>
+    </ul>
+</div>
+           
+           
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                    <a class="nav-link" href="blog.html">The Document</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+                            <li><a class="dropdown-item" href="#footer">Contact Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-lg-4"><a href="#register" class="btn btn-shining">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="webline.jpg" alt="Lake Victoria Heritage">
+                <div class="carousel-caption">
+                    <h1 class="display-2 text-white fw-bold mb-4">Celebrating Our Heritage</h1>
+                    <p class="fs-4 text-white-50 mb-5">Connecting the Western Kenya Circuit to its roots.</p>
+                    <a href="#about" class="btn btn-shining">Explore More</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2000" alt="Innovation Hub">
+                <div class="carousel-caption">
+                    <h1 class="display-2 text-white fw-bold mb-4">Empowering Innovation</h1>
+                    <p class="fs-4 text-white-50 mb-5">Building the technology hub of the Lake Basin.</p>
+                    <a href="#about" class="btn btn-shining">The Vision</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="destiny.jpg" alt="Lake Victoria Industry">
+                <div class="carousel-caption">
+                    <h1 class="display-2 text-white fw-bold mb-4">Blue Economy Growth</h1>
+                    <p class="fs-4 text-white-50 mb-5">Unlocking sustainable wealth from our waters.</p>
+                    <a href="#register" class="btn btn-shining">Join The Expo</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <section class="py-5 bg-white">
+    <div class="container">
+        <div class="row g-0 rounded-5 shadow-lg overflow-hidden border border-light">
+            
+            <div class="col-lg-7 p-4 p-md-5 d-flex flex-column justify-content-center" style="background: #ffffff;">
+                <h6 class="text-primary fw-bold text-uppercase mb-3" style="letter-spacing: 2px;">
+                    <i class="fa fa-monument me-2"></i> Our Heritage
+                </h6>
+                <h2 class="display-5 mb-4" style="color: #003366; font-family: 'Playfair Display', serif;">
+                    Documenting the <span style="color: #FFD700;">Lakefront</span> Legacy.
+                </h2>
+                <p class="lead text-muted mb-4">
+                    The Lakebelt Expo preserves the rich socio-cultural history of the 14 LREB counties, bridging the gap between ancient traditions and 2026's economic opportunities.
+                </p>
+                
+                <div class="d-flex gap-3">
+                    <a href="blog.html" class="btn btn-shining">The Document</a>
+                    <a href="gallery.html" class="btn btn-outline-primary rounded-pill px-4">View Gallery</a>
+                </div>
+            </div>
+
+            <div class="col-lg-5 text-center p-5 d-flex align-items-center justify-content-center" 
+                 style="background: linear-gradient(45deg, #001a33, #003366);">
+                <div class="heritage-visual">
+                    <div class="display-1 fw-bold mb-0" style="color: #FFD700; line-height: 1;">14</div>
+                    <h3 class="text-white text-uppercase fw-light" style="letter-spacing: 5px;">Counties</h3>
+                    <div class="my-3 mx-auto" style="width: 50px; height: 4px; background: #FFD700;"></div>
+                    <p class="text-white-50 px-3">United under one socio-economic blueprint for Western Kenya.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Ensures the section looks great on mobile without touching other buttons */
+    .btn-shining {
+        background: linear-gradient(45deg, #003366, #0052a4);
+        color: white; border: none; padding: 12px 25px; border-radius: 50px;
+        font-weight: 600; text-decoration: none;
+    }
+    @media (max-width: 991px) {
+        .display-1 { font-size: 5rem; }
+    }
+</style>
+
+    <section class="py-5" id="about">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-4 mb-4 text-primary">Strategic Vision</h2>
+                    <p class="lead">The Lakebelt Expo is the flagship socio-economic gathering designed to document and showcase the progress of the 14 Lake Region Counties.</p>
+                    <p>By bringing together stakeholders from Tourism, Agriculture, and Tech, we create a unified Western Circuit. This document serves as our blueprint for regional transformation.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5 bg-light rounded-5 border-start border-5 border-primary">
+                        <h3>Main Objectives</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fa fa-check-circle text-primary me-2"></i> Showcase Cultural Heritage</li>
+                            <li class="mb-2"><i class="fa fa-check-circle text-primary me-2"></i> Promote Blue Economy</li>
+                            <li class="mb-2"><i class="fa fa-check-circle text-primary me-2"></i> Drive Innovation & Startup growth</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light" id="testimonials">
+        <div class="container text-center">
+            <h2 class="mb-5">Our Stakeholders</h2>
+            <div class="row g-4 pt-4">
+                <div class="col-md-4">
+                    <div class="pillar-card p-5">
+                        <img src="https://i.pravatar.cc/150?u=a" class="testimonial-img" alt="User">
+                        <div class="text-warning mb-3">
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                        </div>
+                        <h5>Dr. Peter O.</h5>
+                        <p class="text-muted italic">"A shining example of how we should document our cultural assets."</p>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pb-4" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="text-white mb-4">Lakebelt <span style="color: var(--shining-gold)">2026</span></h3>
+                    <p class="text-white-50">Celebrating Heritage, Empowering Innovation.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li><a href="#about" class="text-white-50 text-decoration-none">Our Vision</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-4">Venue</h5>
+                    <p class="text-white-50">Kisumu Museum Grounds<br>Kisumu City, Kenya</p>
+                </div>
+            </div>
+            <hr class="border-secondary mt-5">
+            <p class="text-center text-white-50 mb-0">&copy; 2026 Lakebelt Western Kenya Expo.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

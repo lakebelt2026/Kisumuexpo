@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Documentation & Registration | Lakebelt 2026</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        :root { 
+            --primary-blue: #003366; 
+            --shining-gold: #FFD700; 
+            --whatsapp-green: #25D366;
+            --soft-bg: #f4f7f9;
+        }
+        
+        body { font-family: 'Poppins', sans-serif; background-color: var(--soft-bg); color: #333; }
+        h1, h2, h3, .navbar-brand { font-family: 'Playfair Display', serif; }
+
+        /* Navbar */
+        .navbar { background: white !important; border-bottom: 3px solid var(--primary-blue); padding: 1rem 0; }
+        .navbar-brand { font-size: 30px; color: var(--primary-blue) !important; font-weight: 700; }
+
+        /* Clean Blue Header (Photo Removed) */
+        .blog-header {
+            background: linear-gradient(135deg, #001a33 0%, #003366 100%);
+            padding: 80px 0; color: white; text-align: center;
+            border-bottom: 5px solid var(--shining-gold);
+        }
+
+        /* Document & Form Cards */
+        .content-card {
+            background: white; padding: 40px; border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08); margin-bottom: 30px;
+        }
+
+        /* Shining Button */
+        .btn-shining {
+            background: linear-gradient(45deg, var(--primary-blue), #0052a4);
+            color: white; border: none; padding: 12px 30px; border-radius: 50px;
+            font-weight: 600; transition: 0.3s; text-transform: uppercase;
+        }
+        .btn-shining:hover { transform: scale(1.02); box-shadow: 0 5px 15px rgba(0,51,102,0.4); color: white; }
+
+        /* Form Styling */
+        .form-control { border-radius: 10px; padding: 12px; border: 1px solid #ddd; background: #fafafa; }
+        .form-control:focus { 
+            border-color: var(--shining-gold); 
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3); 
+            background: white;
+        }
+
+        .sidebar-box {
+            background: var(--primary-blue); color: white;
+            padding: 30px; border-radius: 15px;
+        }
+
+        /* WhatsApp */
+        .whatsapp-float {
+            position: fixed; width: 60px; height: 60px; bottom: 40px; right: 40px;
+            background-color: var(--whatsapp-green); color: #FFF; border-radius: 50px;
+            text-align: center; font-size: 30px; z-index: 1000; display: flex;
+            align-items: center; justify-content: center; text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://wa.me/254700000000" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Lakebelt <span style="color: var(--shining-gold)">2026</span></a>
+            <a href="index.html" class="btn btn-outline-primary rounded-pill px-4 fw-bold"> <i class="fa fa-arrow-left me-2"></i> Home</a>
+        </div>
+    </nav>
+
+    <header class="blog-header">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Official Documentation</h1>
+            <p class="lead text-white-50">Strategic Blueprint & Participant Registration</p>
+        </div>
+    </header>
+
+    <div class="container pb-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8" style="margin-top: -40px;">
+                
+                <div class="content-card">
+                    <h2 class="text-primary mb-4 border-bottom pb-2">The Lakebelt Mandate</h2>
+                    <p>The Lakebelt Expo is the primary socio-economic gathering for the 14 counties of the Lake Region Economic Block (LREB). This document serves as the guide for heritage preservation and blue economy innovation.</p>
+                    
+                    <div class="p-3 mb-4 bg-light rounded border-start border-4 border-primary">
+                        <h5 class="text-primary">Vision Statement</h5>
+                        <p class="mb-0">"To transform the Lake Victoria Basin into a shining hub of sustainable trade and cultural tourism."</p>
+                    </div>
+                    
+                    <p><i>Paste the rest of your belt document text here...</i></p>
+                </div>
+
+                <div class="content-card" id="register">
+                    <h2 class="text-primary mb-4">Registration Form</h2>
+                    <p class="text-muted">Please provide your details to participate in the 2026 Expo.</p>
+                    
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold">Email Address</label>
+                            <input type="email" class="form-control" placeholder="email@domain.com">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold">I am registering as a:</label>
+                            <select class="form-select">
+                                <option selected>Choose Category</option>
+                                <option>Exhibitor</option>
+                                <option>Sponsor</option>
+                                <option>Visitor</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-bold">County of Origin</label>
+                            <input type="text" class="form-control" placeholder="e.g. Kisumu, Homa Bay...">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-shining w-100 mt-3">Submit Registration</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-lg-5">
+                <div class="sidebar-box shadow-lg">
+                    <h4 class="text-white mb-4"><i class="fa fa-info-circle me-2"></i>Resources</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="#" class="text-white text-decoration-none border-bottom pb-1">Download Concept Note</a></li>
+                        <li class="mb-3"><a href="#" class="text-white text-decoration-none border-bottom pb-1">Exhibitor Guidelines</a></li>
+                        <li class="mb-3"><a href="#" class="text-white text-decoration-none border-bottom pb-1">Sponsorship Tiers</a></li>
+                    </ul>
+                    <div class="mt-4 p-3 bg-white bg-opacity-10 rounded">
+                        <p class="small mb-0">For urgent inquiries, use the floating WhatsApp icon to chat with our secretariat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 border-top border-warning border-4">
+        <div class="container text-center">
+            <h3 class="mb-2">Lakebelt <span style="color: var(--shining-gold)">2026</span></h3>
+            <p class="text-white-50 small mb-0">© 2026 Lakebelt Western Kenya Expo. Documented for Regional Progress.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
